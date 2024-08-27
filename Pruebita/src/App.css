@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS DE CABECERA */
+.Cabeza{
+  background-color: antiquewhite;
+  width: 111.9%;
+  height: 250px;
+}
+.section{
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 5px solid rgb(230, 157, 22);
+  height: 200px;
+}
+.lg-h{
+  display: flex;
+  padding-top: 60px;
+  padding-left: 100px;
+}
+.lg-h h1{
+  padding-top: 35px;
+  padding-left: 10px;
+  font-size: 40px;
+  color: orange;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+.logo.hover {
+  transform: scale(1.2); /* Agranda el logo al 120% de su tamaño original */
+}
+.redes{
+  margin-right: 50px;
+  padding-top: 70px;
+}
+.redes img{
+  width: 55px;
+  height: 40px;
+  padding: 20px;
+}
+.fb{
+  border-radius: 40px;
+}
+.ig{
+  border-radius: 35px;
+}
+.yt{
+  border-radius: 25px;
+  width: 130px;
+}
+/* CSS DE CABECERA */
+
+/* CSS DE BANNER */
+
+.banner img{
+  width: 111.9%;
+  height: 550px;
+}
+
+/* CSS DE BANNER */
+
+/* CSS DE FORMULARIO */
+
+   .centro {
+     justify-content: center;
+     align-items: center;
+     width: 111.9%;
+     height: 800px;
+     background-color: rgba(128, 128, 128, 0.274);
+     padding-top: 150px;
+   }
+   .formulario{
+    text-align: center;
+    width: 1500px;
+    height: 550px;
+    background-color: white;
+    text-align: center;
+    margin-left: 200px;
+   }
+   .fl-name{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 25px;
+   }
+   .fl-name h3{
+    text-align: left;
+    margin-left: 15px;
+   }
+   .fl-name input{
+    width: 600px;
+    height: 70px;
+    margin: 0 15px;
+    margin-top: 10px;
+   }
+   .email-num{
+    padding-top: 20px;
+    font-size: 25px;
+   }
+   .email-num h3{
+    text-align: left;
+    margin-left: 130px;
+   }
+   .email-num input{
+    width: 1237px;
+    height: 70px;
+    margin: 10 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   }
+   .boton{
+    margin-top: 10px;
+    margin-left: 340px;
+   }
+   .boton button{
+    background-color: rgb(221, 123, 12);
+    font-size: 30px;
+    border-radius: 25px;
+    width: 250px;
+    height: 80px;
+    color: white;
+   }
+
+/* CSS DE FORMULARIO */
+
+/* CSS DE PIE */
+.pie{
+  background-color: rgb(221, 123, 12);
+  width: 111.9%;
+  height: 60px;
+}
+.subdi{
+  margin-left: 200px;
+}
+.subdi h2{
+  color: white;
+  padding-top: 10px;
+  font-size: 30px;
+}
+/* CSS DE PIE */
