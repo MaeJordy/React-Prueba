@@ -26,14 +26,11 @@
   font-size: 40px;
   color: orange;
 }
-.logo {
-  width: 100px;
-  height: 100px;
-  transition: transform 0.3s ease-in-out; /* Transición suave */
+.lg-h img{
+  margin-bottom: 20px;
 }
-
-.logo.hover {
-  transform: scale(1.2); /* Agranda el logo al 120% de su tamaño original */
+.lg-h img:hover {
+  cursor: pointer;
 }
 .redes{
   margin-right: 50px;
@@ -43,6 +40,7 @@
   width: 55px;
   height: 40px;
   padding: 20px;
+  transition: transform 0.3s ease-in-out;
 }
 .fb{
   border-radius: 40px;
@@ -61,6 +59,7 @@
 .banner img{
   width: 111.9%;
   height: 550px;
+  display: block;
 }
 
 /* CSS DE BANNER */
@@ -115,8 +114,8 @@
     margin-bottom: 20px;
    }
    .boton{
-    margin-top: 10px;
-    margin-left: 340px;
+    margin-top: 100px;
+    margin-right: 1000px;
    }
    .boton button{
     background-color: rgb(221, 123, 12);
@@ -134,6 +133,7 @@
   background-color: rgb(221, 123, 12);
   width: 111.9%;
   height: 60px;
+  display: flex;
 }
 .subdi{
   margin-left: 200px;
@@ -143,4 +143,11 @@
   padding-top: 10px;
   font-size: 30px;
 }
+.fecha-hora p{
+  font-size: 20px;
+  margin-left: 1000px;
+  margin-top: 20px;
+  color: black;
+}
+
 /* CSS DE PIE */
